@@ -83,4 +83,4 @@ jobs:
       - name: Out Information
         run: |
           echo "Something went wrong"
-          echo "${{ github }}"
+          echo "${{ toJSON(github) }}"
